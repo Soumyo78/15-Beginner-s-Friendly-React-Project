@@ -1,0 +1,27 @@
+article{
+    display: flex;
+    padding: 10px;
+}
+  
+.person-img{
+    width:80px;
+    height:80px;
+    object-fit:cover;
+    border-radius:50%;
+}
+
+.name-age-container{
+      padding-left: 30px;
+}
+
+@media screen and (max-width: 340px) {
+  article{
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .name-age-container{
+    text-align: center;
+    padding-left: 0px;
+  }
+}
